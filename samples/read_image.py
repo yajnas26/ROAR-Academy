@@ -13,8 +13,7 @@ import os
 path = os.path.dirname(os.path.abspath(__file__))
 filename = path + '/' + 'lenna.bmp'
 data = image.imread(filename)
-
-# Display image information
+# Display image information 
 print('Image type is: ', type(data))
 print('Image shape is: ', data.shape)
 

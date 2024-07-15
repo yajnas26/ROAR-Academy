@@ -17,7 +17,7 @@ file_name = "nasdaqlisted.txt"
 print('Reading I/O file ... ', end = ' ')
 try:
     # Get the script path
-
+    print(__file__)
     path = os.path.dirname(os.path.abspath(__file__))
 
     # Open the file for read
